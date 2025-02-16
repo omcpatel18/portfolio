@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 19, 27);
+    color: white;
+    z-index: -1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 50px;
+}
+/* HEADER STYLING */ 
+/* HEADER STYLING */ 
+/* HEADER STYLING */ 
+nav{
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 50px;
+    background-color:rgb(11, 10, 12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+}
+.logo p{
+    color: red;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+nav span{    
+   font-size: 1.5em;
+   font-weight: 600;
+  
+}
+ul{
+    font-weight: 300;
+    font-size: 1em;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    margin: 0 15px;
+}
+/* section intro */
+/* section intro */
+/* section intro */
+main{
+    padding: 0;
+    margin: 0;
+}
+.intro{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.intro_con{
+    height: max-content;
+    width: 55em;
+    position: absolute;
+    align-content: center; 
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: auto;
+    align-self: center;
+}
+.description{
+    height: 4em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.45rem;
+    color: grey;
+}
+.title-text{
+    font-size: 3em;
+}
+.in_btn{
+    height: 4em;
+    width: 15em;
+    background-color: rgb(233, 37, 37);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+/* SKILL-SET SECTION */
+/* SKILL-SET SECTION */
+/* SKILL-SET SECTION */
+
+.skill_set{
+    height: max-content;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill_set_con{
+    height: 100%;
+    width: max-content;
+  
+}
+.skill_set_title{
+    height: max-content;
+    width: 100%;
+    margin: 2.5em 0em;
+}
+.skill_set_title .Services{
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.skill_set_title  .Skill_set{
+    font-size: 3.5em;
+    font-weight: 600;
+    color: crimson;
+}
+.skill_set_title  .Skill_set u{
+    text-decoration: underline;
+    text-decoration-thickness: 0.1em;
+    text-underline-offset: 0.5em;
+}
+
+.card_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2.5em;
+}
+
+.card{
+    height: 15em;
+    width: 15em;
+    background-color:  rgb(34, 37, 51);
+    padding: 3em 1em 1em 1em; 
+}
+
+
+.card span img{
+    height: 2.5em;
+    width: 2.5em;
+  filter: brightness(0) saturate(100%) invert(14%) sepia(96%) saturate(7433%) hue-rotate(-10deg) brightness(92%) contrast(110%);
+}
+
+.icon-name{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.card_des{
+    font-size: small;
+    width: 100%;
+    word-spacing: 5px;
+    text-align: justify;
+}
+/* CONTACT US  */
+/* CONTACT US  */
+/* CONTACT US  */
+
+footer{
+    width: 100%;
+    height: max-content;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    align-items: center;
+    padding: 5em 0;
+}
+
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: max-content;
+    width: 40%;
+    margin: auto ;
+}
+.contact label{
+    font-size: 3em;
+    color: crimson;
+    font-weight: 500;
+    align-self: flex-start;
+}
+.contact input{
+    height: 4em;
+    width: 35em;
+    background-color:  rgb(34, 37, 51);
+    font-size: 1em;
+    border: none;
+    padding-left: 1.5em;
+}
+.contact input::placeholder{
+    color: black;
+    font-size: 1.1em;
+    padding-left: 0.5em;
+}
+
+footer .contact_btn{
+    height: 4em;
+    width: 15em;
+    background-color: rgb(233, 37, 37);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    color: white;
+    margin: 4em 0;
+}
